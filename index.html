@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChrisTravelGO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">ChrisTravelGO</a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <section class="parallax-1">
+            <div class="parallax-inner">
+                <h1>Welcome to SPAIN</h1>
+            </div>
+        </section>
+        <h2>Hi welcome to <strong>SPAIN</strong></h2>
+        <div class="content-container">
+            <p>Looking for the best places to visit? Whether you're here to explore the vibrant streets of Barcelona, 
+                soak in the rich history and culture of Seville, or relax on the stunning beaches of Mallorca, Spain has 
+                something for every type of traveler. Discover the lively atmosphere of Barcelona with its beautiful 
+                architecture and coastal charm, wander through the historic neighborhoods of Seville with its magnificent 
+                Alcázar and lively flamenco scene, or unwind on the picturesque beaches and scenic mountains of Mallorca. 
+                Let me guide you to the most iconic spots and hidden gems in these incredible destinations...</p>
+            </div>
+
+        <section class="parallax-2">
+            <div class="parallax-inner">
+                <h1>Sagrada Familla</h1>
+            </div>
+        </section>
+        <div class="content-container">
+            <p>The <strong>Sagrada Família</strong> is one of Barcelona's most iconic landmarks and a masterpiece of architecture 
+                designed by the renowned Catalan architect Antoni Gaudí. Construction of this grand basilica began in 1882, and 
+                it remains unfinished to this day, with an estimated completion date around 2026—marking the 100th anniversary 
+                of Gaudí’s death...</p>
+            <span class="more-content"><p>This extraordinary structure is renowned for its unique blend of Gothic and Art Nouveau styles, 
+                and its intricate facades and towering spires continue to captivate visitors from around the world. The Sagrada Família 
+                has been a UNESCO World Heritage site since 1984 and remains a symbol of both Gaudí’s genius and the city of Barcelona 
+                itself.</p></span>
+            <button class="read-more" onclick="toggleContent(this)">Read More</button>
+        </div>
+
+        <section class="parallax-3">
+            <div class="parallax-inner">
+                <h1>Plaza de España</h1>
+            </div>
+        </section>
+        <div class="content-container">
+            <p><strong>Plaza de España</strong> is one of the most famous and impressive 
+                landmarks in Seville, Spain. Located at the southern end of Maria Luisa Park, 
+                it was built for the Ibero-American Exposition of 1929...</p>
+            <span class="more-content"><p>The plaza is a semi-circular building with a canal running 
+                in front, offering boat rides. It also features beautiful ceramic tiles representing 
+                different Spanish provinces. The building itself is a magnificent example of Spanish 
+                architecture, with intricate designs and arches that evoke a sense of grandeur. 
+                The canal adds a serene touch, allowing visitors to take leisurely boat rides while 
+                enjoying the picturesque surroundings. The colorful ceramic tiles, each depicting a 
+                different province, serve as both an artistic and cultural tribute to Spain’s diverse
+                regions, making the plaza a truly unique destination.</p></span>
+            <button class="read-more" onclick="toggleContent(this)">Read More</button>
+        </div>
+
+        <section class="parallax-4">
+            <div class="parallax-inner">
+                <h1>Port de Sóller</h1>
+            </div>
+        </section>
+        <div class="content-container">
+            <p>The <strong>Port de Sóller</strong> is a picturesque and charming coastal town located on the northwestern coast of the island of Mallorca, part of the Balearic Islands in Spain. Nestled between the towering Serra de Tramuntana mountains and the Mediterranean Sea, the port is known for its stunning natural beauty...</p>
+            <span class="more-content"><p>With its tranquil harbor, beautiful beaches, and a quaint town 
+                full of charming shops and delightful restaurants, it's a popular destination for those 
+                seeking a peaceful getaway. Visitors can unwind by the serene waters, explore the 
+                picturesque streets, and enjoy the relaxed atmosphere, making it the perfect escape 
+                from the hustle and bustle of everyday life. Whether you're looking to relax on the 
+                beach, stroll through the local shops, or savor delicious meals in a cozy setting, 
+                this destination offers something for everyone who craves peace and tranquility.</p></span>
+            <button class="read-more" onclick="toggleContent(this)">Read More</button>
+        </div>
+    </section>
+</body>
+
+</html>
